@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DXEngine">
+      <UniqueIdentifier>{897b4d4b-b515-4cff-ab86-d1bb14c09cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore">
+      <UniqueIdentifier>{eeecf321-e1cd-418a-8052-56d0c571a186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{6b3bec78-ddd7-4ddb-92b5-fb52d1ee8314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib">
+      <UniqueIdentifier>{55aa64e0-79e4-46f9-89d0-6839288cc291}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXUT.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXAudio.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCamera.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGUI.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXInput.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXObject.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneShooter.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneUpstairs.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAudio.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGUI.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveData.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSnake.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneUtil.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenu.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MFDecoder.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneOmake.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneShop.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CharaData.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscData.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStory.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneOP.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMidSave.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScore.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.h">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXUT.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DXAudio.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCamera.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DXGUI.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DXInput.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DXObject.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneUpstairs.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGUI.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveData.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneShooter.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSnake.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenu.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MFDecoder.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneOmake.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneShop.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CharaData.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscData.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneStory.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneOP.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMidSave.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneScore.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundData.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SaveHope.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ico.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
